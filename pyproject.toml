@@ -5,9 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.9",
     "moviepy>=2.2.1",
     "pandas>=3.0.3",
     "pydantic-settings>=2.14.1",
     "requests>=2.34.2",
     "ring-doorbell>=0.9.14",
+    "scipy>=1.17.1",
+    "sounddevice>=0.5.5",
 ]
